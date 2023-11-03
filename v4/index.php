@@ -679,7 +679,7 @@
                                         </div>
                                     </div>
                                 </fieldset>
-                                <fieldset id="form-step9" class="form-steps fieldset-8" data-step="9" style="display: none;" data-tag="address">
+                                <fieldset id="form-step9" class="form-steps fieldset-9" data-step="9" style="display: none;" data-tag="address">
                                     <legend hidden="true">Ciudad</legend>
                                     <h3 class="form_box-question">En qué ciudad vive?</h3>
                                     <div class="form-group" id="street_address">
@@ -701,7 +701,7 @@
                                         </div>
                                     </div>
                                 </fieldset>
-                                <fieldset id="form-step9" class="form-steps fieldset-8" data-step="9" style="display: none;" data-tag="address">
+                                <fieldset id="form-step10" class="form-steps fieldset-10" data-step="10" style="display: none;" data-tag="address">
                                     <legend hidden="true">Dirección</legend>
                                     <h3 class="form_box-question">Donde desea que se instalen los paneles solares (Dirección)?</h3>
                                     <div class="form-group" id="street_address">
@@ -723,7 +723,7 @@
                                         </div>
                                     </div>
                                 </fieldset>
-                                <fieldset id="form-step10" class="form-steps fieldset-9" data-step="10" style="display: none;" data-tag="phone">
+                                <fieldset id="form-step11" class="form-steps fieldset-11" data-step="11" style="display: none;" data-tag="phone">
                                     <legend hidden="true">Teléfono</legend>
                                     <p class="form_box-desc">¿A qué número de teléfono podemos contactarle?</p>
                                     <div class="form-group">
