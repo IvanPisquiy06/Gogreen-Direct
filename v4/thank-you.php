@@ -517,17 +517,22 @@
         'homeowner' => $ownHome,
         'trusted_form_cert_id' => $trustedForm,
         'tcpa_consent' => 'Yes',
+        'tcpa_text' => 'I agree to Terms, Privacy, and consent to solar/home servicers to send      marketing prerecorded messages and autodialed calls/texts to my phone number above even if its on any do not call list. Consent is not a condition of purchase. You can opt-out at any time. Message/data rates may apply.',
         'solar_electric' => 'Yes',
+        'lp_response' => 'json'
     );
+
+    $dataDirectEncoded = http_build_query($dataDirect);
+    echo $dataDirectEncoded;
 
     $curlDirect = curl_init();
 
     curl_setopt($curlDirect, CURLOPT_URL, "https://solardirectmarketing.leadspediatrack.com/post.do");
     curl_setopt($curlDirect, CURLOPT_POST, true);
-    curl_setopt($curlDirect, CURLOPT_POSTFIELDS, json_encode($dataDirect));
+    curl_setopt($curlDirect, CURLOPT_POSTFIELDS, $dataDirectEncoded);
     curl_setopt($curlDirect, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($curlDirect, CURLOPT_HTTPHEADER, array(
-            "Content-Type: application/json",
+        "Content-Type: application/x-www-form-urlencoded",
 	));
 
     curl_setopt_array($curlDirect, [
