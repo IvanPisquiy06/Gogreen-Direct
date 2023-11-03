@@ -352,6 +352,7 @@
                 state = 'none';
             }
             $('#state').val(st)
+            document.getElementById('state').value = st;
             return st;
         }
 
@@ -673,6 +674,28 @@
                                         <div class="col">
                                             <div class="form-btns ml-auto text-right">
                                                 <button id="q8-next" class="btn form-btn btn-next" type="button"><span class="btn-text">Siguiente</span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                                <fieldset id="form-step9" class="form-steps fieldset-8" data-step="9" style="display: none;" data-tag="address">
+                                    <legend hidden="true">Ciudad</legend>
+                                    <h3 class="form_box-question">En qué ciudad vive?</h3>
+                                    <div class="form-group" id="street_address">
+                                        <input id="city" class="form-control" type="text" name="city" placeholder="Ciudad" value="" required>
+                                        <div id="address_error" class="form-error-message">Por favor, ingrese dónde desea que se instalen los paneles solares (dirección).</div>
+                                    </div>
+                                    <div class="form-group" id="street-address-verify" style="display: none;">
+                                        <label>Quiso escribir...? (Click en la opción que mejor se asemeje)</label>
+                                        <div id="street_address_predictions">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col colback"><a class="btn btn-link btn-back">Atrás</a></div>
+                                        <div class="col">
+                                            <div class="form-btns ml-auto text-right">
+                                                <button id="q9-next" class="btn form-btn btn-next" type="button"><span class="btn-text">Siguiente</span>
                                                 </button>
                                             </div>
                                         </div>
