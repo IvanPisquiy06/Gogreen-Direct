@@ -606,8 +606,9 @@
     curl_close($curl);
 
     $jsonPromise = json_decode($response);
+    $jsonPromiseDirect = json_decode($responseDirect);
     $promise = $jsonPromise->promise;
-    $amount = $jsonPromise->price;
+    $amount = $jsonPromiseDirect->price;
 
     // Data to send to the API
     $dataEver = array(
