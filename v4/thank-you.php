@@ -424,6 +424,8 @@
     $ownHome = $_POST['property_ownership'];
     $address = $_POST['full_address'];
     $zip = $_POST['zip_code'];
+    $city = $_POST['city'];
+    $state = $_POST['state'];
     $monthlyBill = $_POST['electric_bill'];
     $roofShade = $_POST['roof_shade'];
     $ip_address = $_SERVER['REMOTE_ADDR'];
