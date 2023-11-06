@@ -613,7 +613,7 @@
     $dataEver = array(
         'nid' => 1006,
         'affid' => $sourceId,
-        'oid' => 1937,
+        'oid' => 1966,
         'amount' => $amount
     );
 
