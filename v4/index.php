@@ -17243,7 +17243,6 @@
                         serverLat = details.latitude;
                         $('#locality').val(serverCity)
                         $('#zip').val(serverZip)
-                        $('#state').val(serverState)
 
 
                         working.hide();
