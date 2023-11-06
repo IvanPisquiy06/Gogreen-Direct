@@ -351,7 +351,6 @@
                 st = 'none';
                 state = 'none';
             }
-            $('#state').val(st)
             document.getElementById('state').value = st;
             return st;
         }
