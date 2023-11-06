@@ -525,7 +525,6 @@
     );
 
     $dataDirectEncoded = http_build_query($dataDirect);
-    echo $dataDirectEncoded;
 
     $curlDirect = curl_init();
 
@@ -545,7 +544,6 @@
 	]);
     
     $responseDirect = curl_exec($curlDirect);
-    echo $responseDirect;
     curl_close($curlDirect);
 
     // Data to send to the API
