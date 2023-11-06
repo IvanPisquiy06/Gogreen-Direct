@@ -499,7 +499,6 @@
 
                                 <input type="hidden" name="sub1" id="sub1Input">
                                 <input type="hidden" id="route" name="street" value="">
-                                <input type="hidden" id="locality" name="city" value="">
                                 <input type="hidden" id="administrative_area_level_1" name="state" value="">
                                 <input type="hidden" id="country" name="country" value="">
                                 <input type="hidden" id="postal_code" name="postal_code" value="">
